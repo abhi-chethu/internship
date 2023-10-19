@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1, h5, div, a {
+    margin: 10px;
+}
+div {
+    text-align: center;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+}
+h1 {
+    color: #1778F2; 
+}
+button {
+    background-color: #1778F2; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+
+}
+a {
+    color: #1778F2;
+}
+
+.card {
+    border: 5px solid whitesmoke;
+    width: 200px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
